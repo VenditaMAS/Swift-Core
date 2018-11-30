@@ -21,7 +21,7 @@ public struct Name: CustomStringConvertible, Hashable, ExpressibleByStringLitera
          We are of course only interested in the names between the dots. What follows is
          effectively the same as the above regex but a bit more efficient.
         */
-        let regex = "^\\w+"
+        let regex = "^\\w+$"
         if name.isEmpty || name.contains(".") || name.range(of: regex, options: [.regularExpression, .caseInsensitive], range: nil, locale: nil) == nil{
             return nil
         }

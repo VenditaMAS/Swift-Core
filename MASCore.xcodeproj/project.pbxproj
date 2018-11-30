@@ -68,6 +68,8 @@
 		F3E166F1216C6AFA003CE2FF /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E166F0216C6AFA003CE2FF /* CGImage.swift */; };
 		F3E4EC4D20FF52F700501FB1 /* MASCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E4EC4320FF52F700501FB1 /* MASCore.framework */; };
 		F3E4EC5420FF52F700501FB1 /* MASCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E4EC4620FF52F700501FB1 /* MASCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FF70C621B12B3200A90A12 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF70C521B12B3200A90A12 /* URLRequestBuilder.swift */; };
+		F3FF70C721B12B3200A90A12 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FF70C521B12B3200A90A12 /* URLRequestBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,7 @@
 		F3E4EC4720FF52F700501FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3E4EC4C20FF52F700501FB1 /* MASCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MASCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E4EC5320FF52F700501FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FF70C521B12B3200A90A12 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,7 @@
 				F363DBDC21856A67004D40CE /* StringProtocol.swift */,
 				F3AC65A4210DF13F00B3DB73 /* ThrowIfNil.swift */,
 				F3450C67210003E700733481 /* Transform.swift */,
+				F3FF70C521B12B3200A90A12 /* URLRequestBuilder.swift */,
 				F3450C6A210003EF00733481 /* Version.swift */,
 			);
 			name = Core;
@@ -443,6 +447,7 @@
 				F3CDFE46215F013700FD1B47 /* Name.swift in Sources */,
 				F3450C63210003D400733481 /* Logical.swift in Sources */,
 				F363DBDE21856A67004D40CE /* StringProtocol.swift in Sources */,
+				F3FF70C721B12B3200A90A12 /* URLRequestBuilder.swift in Sources */,
 				F3450C5D210003BB00733481 /* Array.swift in Sources */,
 				F37AECF82124076C0018E7DB /* OrderedIdentifier.swift in Sources */,
 				F363DBDB218568BF004D40CE /* Optional.swift in Sources */,
@@ -497,6 +502,7 @@
 				F3AC65A8210DF1FC00B3DB73 /* FullJoin.swift in Sources */,
 				F3450C592100026000733481 /* CaseSensitiveUUID.swift in Sources */,
 				F383C47E2158AA710072B3A1 /* UIStoryboardSegue.Identifier.swift in Sources */,
+				F3FF70C621B12B3200A90A12 /* URLRequestBuilder.swift in Sources */,
 				F308FEC22169EEC0002AC8F3 /* UIScrollView.swift in Sources */,
 				F383C47C2158A9B30072B3A1 /* UIStoryboard.Identifier.swift in Sources */,
 				F3450C6B210003EF00733481 /* Version.swift in Sources */,
